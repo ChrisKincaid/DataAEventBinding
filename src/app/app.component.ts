@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataAEventBinding';
+  username: string = "";
+
+  resetUsername() {
+    this.username = "";
+  }
 }
